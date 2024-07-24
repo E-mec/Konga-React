@@ -1,0 +1,24 @@
+
+
+.about {
+    color: #5a5f66;
+    padding: 0.625rem 1.25rem 1.25rem;
+}
+
+.ab-head h3{
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+}
+
+.ab-body p {
+    font-size: .875rem;
+    letter-spacing: .00625rem;
+    line-height: 1.4375rem;
+}
+
+@media (max-width: 768px){
+    .about {
+        display: none;
+    }
+}

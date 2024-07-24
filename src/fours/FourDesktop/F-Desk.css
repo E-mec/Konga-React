@@ -1,0 +1,44 @@
+.f-main {
+    /* height: 362px; */
+    display: flex;
+    list-style: none;
+    
+}
+
+.four {
+    
+    margin-right: .7rem;
+    width: calc(100% / 4);
+}
+
+.four .f-img{
+    border-radius: 0.3125rem 0.3125rem 0 0;
+    margin-bottom: 40px;
+}
+
+.four .f-img img {
+    width: 100%;
+    border-radius: 0.3125rem 0.3125rem 0 0;
+}
+
+.txt {
+    color: #5a5f66;;
+}
+
+.txt h2 {
+    font-size: 1.125rem;
+}
+
+.txt p {
+    color: #4e4e4e;
+    font-size: .875rem;
+    height: 2.1875rem;
+    margin: 1.25rem 0;
+}
+
+.txt .p {
+    color: #8b054d;
+    /* font-size: .75rem; */
+    font-weight: 500;
+}
+

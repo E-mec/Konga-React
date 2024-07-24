@@ -1,0 +1,100 @@
+
+
+.deal-d-head{
+    display: flex;
+    align-items: center;
+    height: 3.125rem;
+    margin-top: 1.25rem;
+    margin-bottom: 0.7rem;
+    padding: 0 0.9375rem;
+    background: #94004f url(https://res.cloudinary.com/staging-konga-com/image/upload/f_auto,q_auto/v1654791685/assets/images/homepage/Bg-Icons.png) no-repeat;
+    border-radius: 0.3125rem 0.3125rem 0 0;
+}
+
+.deal-d-head h2 {
+    color: #fff;
+    font-size: 2rem;
+    letter-spacing: .03125rem;
+}
+
+.deal-d-head .link {
+    display: inline-block;
+    font-size: .9125rem;
+    font-weight: 500;
+    letter-spacing: .03125rem;
+    margin-left: 2.875rem;
+    color: #fff;
+    text-decoration: none;
+    transition: all 1000 ease;
+}
+
+.deal-d-head .link:hover {
+    text-decoration: underline;
+}
+
+.deals{
+    padding: 0 0 0.3125rem;
+    /* background-color: #fff; */
+    border-radius: 0 0 0.3125rem 0.3125rem;
+}
+
+
+
+
+
+
+
+.deal-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+
+.deal{
+    display: flex;
+    align-items: center;
+    /* height: 145px; */
+    padding: 0.9375rem;
+    box-shadow: 0 0 0.5rem rgb(0 0 0 / 5%);
+}
+
+.deal:hover {
+    box-shadow: 0 0 0.5rem rgb(0 0 0 / 25%);
+}
+
+.deal .deal-in-1 {
+    padding-right: 0.625rem;
+    height: 6.25rem;
+    width: 100px;
+}
+
+.deal .deal-in-1 .deal-img{
+    width: 100%;
+}
+
+.deal-in-2 h3 {
+    font-size: .9375rem;
+    font-weight: 400;
+    height: 1.875rem;
+    margin: 0.3125rem 0 0.625rem;
+}
+
+.price1 {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.price2{
+    font-size: .875rem;
+    margin-left: 0.3125rem;
+    opacity: .7;
+    text-decoration: line-through;
+}
+
+.save{
+    font-size: .75rem;
+    font-weight: 600;
+    color: #33b27b;
+    margin: 0.125rem 0;
+}

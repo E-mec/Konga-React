@@ -1,0 +1,30 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: .8125rem;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+
+}
+
+section{
+  margin-top: 15px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 1.25rem !important;
+}
+
+.pad{
+  padding: 0.625rem 1.25rem 1.25rem;
+}

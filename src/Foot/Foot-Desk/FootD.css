@@ -1,0 +1,272 @@
+.bd {
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.foot1{
+    background: #2e2e2e;
+}
+
+.foot1-flex {
+    display: flex;
+    align-items: center;
+    padding: 0.9375rem 1.875rem;
+}
+
+.foot1-sup {
+    display: flex;
+    color: #b5b5b5;
+    margin: 0 0 0.625rem;
+    margin-top: 0 !important;
+}
+
+.foot-sup-box {
+    display: flex;
+    align-items: center;
+    margin-right: 1.275rem;
+    transition: color .3s ease-in-out;
+}
+
+.foot-sup-icon {
+    /* padding-right: 0.3125rem; */
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: #fff;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-sup-desc {
+    display: block;
+    font-size: .875rem;
+    margin-left: 0.625rem;
+    white-space: nowrap;
+}
+
+.foot-sup-desc:hover {
+    color: #fff;
+}
+
+.foot-sup-desc > h3 {
+    margin-bottom: 0.625rem;
+    margin-top: 0;
+    font-size: .875rem;
+}
+
+.foot1-offer {
+    color: #b5b5b5;
+    display: block;
+    font-size: .875rem;
+    white-space: nowrap;
+}
+
+.foot1-offer > h3 {
+    margin: 0 0 0.625rem;
+    text-transform: uppercase;
+    font-size: .875rem;
+}
+
+.foot1-form {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.foot1-form-inp {
+    background-color: #fff;
+    border: none;
+    border-radius: 0.1875rem 0 0 0.1875rem;
+    font-size: .875rem;
+    max-height: 2.8125rem;
+    outline: none;
+    padding-left: 0.625rem;
+    width: 60%;
+}
+
+.foot1-btn {
+    background-color: #ed017f;
+    border: none;
+    border-radius: 0 0.1875rem 0.1875rem 0;
+    color: #fff;
+    font-size: .875rem;
+    font-weight: 600;
+    height: 2.8125rem;
+    text-align: center;
+    width: 30%;
+    cursor: pointer;
+}
+
+.foot2{
+    background-color: #0c0c0c;
+}
+
+.foot2-box{
+    color: #b5b5b5;
+    padding: 1.5625rem 1.9375rem;
+}
+
+.foot2-main{
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.foot2-main-1 {
+    display: flex;
+    justify-content: space-between;
+    width: 63%;
+}
+
+.foot2-main-box {
+    margin-bottom: 1.25rem;
+}
+
+.foot2-main-box h4 {
+    cursor: default;
+    font-size: .9375rem;
+    font-weight: 600;
+    margin-bottom: 0.625rem;
+    margin-top: 0;
+}
+
+.foot2-main-box h4:hover {
+    color: #fff;
+}
+
+.foot2-main-box ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.foot2-main-box ul li  {
+    font-size: .8125rem;
+    font-weight: 300;
+    padding-top: 0.625rem;
+}
+
+.foot2-main-box ul li:hover{
+    color: #fff;
+}
+
+.foot2-main-2 {
+    padding-left: 5%;
+    width: 35%;
+    margin-top: 0;
+}
+
+.foot2-main-dwn {
+    font-weight: 600;
+}
+
+.foot2-main-dwn h4 {
+    font-size: .9375rem;
+    margin-bottom: 0.9375rem;
+    margin-top: 0;
+}
+
+.foot2-download {
+    padding-right: 5%;
+    width: 85%;
+    display: flex;
+}
+
+.foot2-download a {
+    background-color: #000;
+    border-radius: 0.3125rem;
+    color: #fff;
+    height: 2.9375rem;
+    margin-right: 5%;
+    padding: 0 3%;
+    width: 9.375rem;
+    display: flex;
+}
+
+.dwn-icon {
+    padding-top: 8%;
+    width: 25%;
+}
+
+.dwn-desc {
+    display: block;
+    margin-left: 5%;
+    margin-top: 4%;
+    padding: 2%;
+    white-space: nowrap;
+    width: 85%;
+    color: #b5b5b5;
+}
+
+.dwn-desc p {
+    font-size: .6875rem;
+    margin: 0;
+    width: 100%;
+}
+
+.dwn-desc h3 {
+    font-size: .9375rem;
+    margin: 0;
+    width: 100%;
+}
+
+.foot2-connect {
+    padding-top: 1.35rem;
+    width: 100%;
+}
+
+.foot2-connect h4 {
+    font-size: .9375rem;
+    width: 45%;
+    
+}
+
+.foot2-socials {
+    width: 80%;
+}
+
+.foot2-socials > a {
+    background-color: #333;
+    border-radius: 1.5625rem;
+    height: 24px;
+    margin: 0.125rem 3% 0.125rem 0.125rem;
+    width: 24px;
+    padding: 4%;
+    font-size: 18px;
+}
+
+.foot2-foot {
+    display: block;
+}
+
+.foot2-foot-ba {
+    color: #9b9b9b;
+    font-weight: 300;
+    margin-top: 3.75rem;
+    text-align: center;
+}
+
+.foot2-foot-ba:before {
+    margin-left: -50%;
+    right: 0.5em;
+    background-color: #333;
+    content: "";
+    display: inline-block;
+    height: 0.125rem;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.foot2-foot-ba:after {
+    margin-right: -50%;
+    left: 0.5em;
+    background-color: #333;
+    content: "";
+    display: inline-block;
+    height: 0.125rem;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+    overflow-x: hidden !important;
+}

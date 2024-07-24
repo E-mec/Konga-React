@@ -1,0 +1,15 @@
+
+
+
+.mySwiper {
+display: flex;
+/* width: calc(100% / 3); */
+}
+
+.four-mobile{
+    width: calc(100%/2);
+}
+
+.f-img-mobile img {
+    width: 100%;
+}

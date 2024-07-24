@@ -1,0 +1,19 @@
+
+
+.headcat {
+    background-color: #f6f6f6;
+    display: inline-block;
+    padding: 0.53312rem;
+    text-align: center;
+    width: 100%;
+}
+
+.cat-list {
+    max-height: 1.125rem;
+}
+
+.head-img {
+    max-height: 1.125rem;
+    margin-right: 3.125rem;
+    max-width: 6.25rem;
+}

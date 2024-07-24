@@ -1,0 +1,98 @@
+.sprod-head-box {
+    background: #fff;
+    border-bottom: 0.0625rem solid #e5e5e5;
+    height: 2.125rem;
+    margin-top: 1.25rem;
+    padding: 0 0.9375rem;
+}
+
+.sprod-head-box .sprod-head {
+    color: #000;
+    font-size: 1.25rem;
+    letter-spacing: .03125rem;
+    margin-bottom: 0 ;
+    margin-top: 0;
+    max-width: 70%;
+}
+
+.sprod-prods-box {
+    padding: 0.46875rem;
+}
+
+.sprod-prods-box .sprod-prods {
+    overflow-x: auto;
+    padding-bottom: 0.625rem !important;
+    list-style: none;
+    margin: 0;
+    /* overflow: hidden; */
+    padding: 0;
+    display: flex;
+}
+
+.sprod-product {
+    box-shadow: 0 0 0.5rem rgb(0 0 0 / 5%);
+    flex-shrink: 0;
+    width: calc(20% - 1.125rem);
+    height: 325px;
+    float: left;
+    margin-left: 0.9375rem;
+    margin-top: 0.9375rem;
+    transition: all 0.4s ease;
+}
+
+.sprod-product:hover {
+    box-shadow: 0 0 0.5rem rgb(0 0 0 / 25%);
+}
+
+.sprod-product .sprod-link {
+    padding: 0.9375rem;
+    position: relative;
+    width: 100%;
+}
+
+.sprod-img-box {
+    height: 12.5rem;
+}
+
+.sprod-img-box .sprod-img {
+    display: block;
+    height: 100%;
+    margin: 0 auto;
+    width: auto;
+}
+
+.sprod-text-box .sprod-name {
+    font-size: .9375rem;
+    height: 1.875rem;
+    font-weight: 500;
+    margin: 0.3125rem 0 0.625rem;
+}
+
+.sprod-amount {
+    border: 0;
+    padding: 0;
+    line-height: 1.25rem;
+}
+
+.sprod-amount-new {
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.25rem;
+}
+
+.sprod-amount-old {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: .875rem;
+    margin-left: 0.3125rem;
+    opacity: .7;
+    text-decoration: line-through;
+}
+
+.sprod-save{
+    font-size: .75rem;
+    font-weight: 600;
+    color: #33b27b;
+    display: block;
+}

@@ -1,0 +1,36 @@
+
+
+
+.main-add{
+    background-color: #fff;
+    border-radius: 0.3125rem;
+    box-shadow: 0 0 0.3125rem rgb(0 0 0 / 5%);
+    min-height: 6.25rem;
+    padding: 0.625rem;
+}
+
+.main-add-img {
+    border-radius: 0.3125rem;
+    height: 100%;
+    max-height: 6.25rem;
+    width: 100%;
+}
+
+.sub-add {
+    background-color: #fff;
+    border-radius: 0.3125rem;
+    padding: 0.625rem;
+    display: flex;
+}
+
+.add-half {
+    margin-right: 0.625rem;
+    width: 50%;
+}
+
+.add-half-img {
+    border-radius: 0.3125rem;
+    display: block;
+    height: 100%;
+    width: 100%;
+}
